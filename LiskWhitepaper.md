@@ -10,11 +10,17 @@ __Written by__
 
 * Max Kordek (Lisk Team)
 * Olivier Beddows (Lisk Team)
-* Boris Povod (Crypti Foundation)
-* Mike Doty (Crypti Foundation)
-* William Canevari (Crypti Foundation)
-* Stas Oskin (Crypti Foundation)
-* Matthew DC (Crypti Foundation)
+
+__Based on the Crypti White Paper written by__
+
+* Boris Povod
+* Max Kordek
+* Olivier Beddows
+* Mike Doty
+* William Canevari
+* Stas Oskin
+* Matthew DC
+
 
 # Table of Contents
 
