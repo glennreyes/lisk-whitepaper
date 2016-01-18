@@ -11,7 +11,7 @@ __Written by__
 * Max Kordek
 * Olivier Beddows
 
-__Based on the Crypti White Paper written by__
+__Based on the Crypti White Paper v2.1 by__
 
 * Boris Povod
 * Max Kordek
