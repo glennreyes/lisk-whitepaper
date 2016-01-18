@@ -8,8 +8,8 @@
 
 __Written by__
 
-* Max Kordek (Lisk Team)
-* Olivier Beddows (Lisk Team)
+* Max Kordek
+* Olivier Beddows
 
 __Based on the Crypti White Paper written by__
 
