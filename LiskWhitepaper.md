@@ -11,15 +11,7 @@ __Written by__
 * Max Kordek
 * Olivier Beddows
 
-__Based on the Crypti White Paper v2.1 by__
-
-* Boris Povod
-* Max Kordek
-* Olivier Beddows
-* Mike Doty
-* William Canevari
-* Stas Oskin
-* Matthew DC
+[**Based on the Crypti White Paper v2.1 by The Crypti Foundation**](https://crypti.me/crypti.pdf)
 
 
 # Table of Contents
