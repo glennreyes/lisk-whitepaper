@@ -2,19 +2,19 @@
 
 ### Lisk Team
 
-#### **v2.1**
+#### **v1.0**
 
-#### September 30th, 2015
+#### February 1st, 2016
 
 __Written by__
 
-* Boris Povod
-* Max Kordek
-* Olivier Beddows
-* Mike Doty
-* William Canevari
-* Stas Oskin
-* Matthew DC
+* Max Kordek (Lisk Team)
+* Olivier Beddows (Lisk Team)
+* Boris Povod (Crypti Foundation)
+* Mike Doty (Crypti Foundation)
+* William Canevari (Crypti Foundation)
+* Stas Oskin (Crypti Foundation)
+* Matthew DC (Crypti Foundation)
 
 # Table of Contents
 
