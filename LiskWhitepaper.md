@@ -63,7 +63,7 @@ To top it all off, all of these cloud functions are run by the users and Lisk de
 - Decentralized computing
 - Sidechain consensus for every dapp
 - Lisk and Bitcoin API interfaces
-- Developer tools: lisk-cli / Toolkit
+- Developer tools: Lisk CLI / Lisk Dapp SDK
 
 ## **2. Clients**
 
@@ -235,11 +235,9 @@ Dapp master nodes are Lisk nodes with an installed dapp and with block generatio
 
 ### 7. Dapps Storage
 
-It is possible to host the dapps on decentralized peer-to-peer storage networks. The developers can also store data used by the dapps on those networks. There are already a few developed systems on the market and we are testing with our dapp platform. The nodes which host the dapps or store data will receive a fee for this service. The first decentralized storage solution we support is Sia10. Dapps are stored as a zip package, including the installation packages in Node.js which information are saved in the the package.json file.
+It is possible to host dapps on every kind of storage network, centralized and decentralized. However, the used storage network has to provide you with a download link to a ZIP package. This is necessary because you have to provide the download link at the dapp registration process so that once a consumer/user wants to install your dapp Lisk knows from where to download and unpack it. 
 
-As an alternative it is also possible to store dapps using existing centralized solutions, the first will be: GitHub. Allowing developers to host a given dapp’s source code and related assets within a GitHub hosted repository.
-
-Once the dapps platform has had chance to mature, developers will be able to update dapps from their associated multi-signature dapp accounts. These multi-signature accounts will require M signatures before any changes can be applied to their associated dapps, according to the dapp’s individual multi-signature settings.
+At a later stage IPFS[[10]](https://ipfs.io) will be natively integrated into Lisk as a decentralized storage option. 
 
 ### 8. Dapps Deposits / Withdrawals
 
@@ -264,7 +262,7 @@ Developers may implement custom tokens in their dapps, and use these tokens as t
 * [7] [http://npmjs.org]
 * [8] David Johnston. Decentralized Applications. [https://github.com/DavidJohnstonCEO/DecentralizedApplications/blob/master/README.md]
 * [9] Factom. Merkle tree. [https://github.com/FactomProject/FactomDocs/blob/master/Factom_Whitepaper.pdf]
-* [10] Sia. A decentralized storage solution. [http://siacoin.com]
+* [10] IPFS. A decentralized storage solution. [https://ipfs.io]
 * [11] Sidechains. Deposit/withdrawal sidechain. [https://www.blockstream.com/sidechains.pdf]
 
 [Based on the Crypti White Paper v2.1 by The Crypti Foundation](https://crypti.me/crypti.pdf)
