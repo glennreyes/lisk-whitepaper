@@ -1,23 +1,23 @@
 ## Table of Contents
 
-1. Introduction
+1. [Introduction](#1-introduction)
 	1. What is Lisk
 	2. Technical Background
 	3. Key Innovation Factors
 	4. Lisk Components
-2. Clients
+2. [Clients](#2-clients)
 	1. Lisk
 	2. Lisk Lite
 	3. Lisk Mobile
-3. Consensus
+3. [Consensus](#3-consensus)
 	1. Delegates
 	2. Network fees
 	3. Peer-to-Peer
-4. Core Features
+4. [Core Features](#4-core-features)
 	1. Usernames
 	2. Contacts
 	3. Multi-signatures
-5. Decentralized Applications
+5. [Decentralized Applications](#5-decentralized-applications)
 	1. Virtual Machine
 	2. Dapps
 	3. Dapps Development
@@ -27,8 +27,8 @@
 	7. Dapps Storage
 	8. Dapps Deposits / Withdrawals
 	9. Dapps Tokens
-6. Appendix
-7. Sources
+6. [Appendix](#6-sppendix)
+7. [Sources](#7-sources)
 
 ## 1. Introduction
 
