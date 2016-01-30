@@ -1,46 +1,46 @@
 ## Table of Contents
 
 1. [Introduction](#1-introduction)
-	1. What is Lisk
-	2. Technical Background
-	3. Key Innovation Factors
-	4. Lisk Components
+	1. [What is Lisk](#1-what-is-lisk)
+	2. [Technical Background](#2-technical-background)
+	3. [Key Innovation Factors](#3-key-innovation-factors)
+	4. [Lisk Components](#4-lisk-components)
 2. [Clients](#2-clients)
-	1. Lisk
-	2. Lisk Lite
-	3. Lisk Mobile
+	1. [Lisk](#1-lisk)
+	2. [Lisk Lite](#2-lisk-lite)
+	3. [Lisk Mobile](#3-lisk-mobile)
 3. [Consensus](#3-consensus)
-	1. Delegates
-	2. Network fees
-	3. Peer-to-Peer
+	1. [Delegates](#1-delegates)
+	2. [Network fees](#2-network-fees)
+	3. [Peer-to-Peer](#3-peer-to-peer)
 4. [Core Features](#4-core-features)
-	1. Usernames
-	2. Contacts
-	3. Multi-signatures
+	1. [Usernames](#1-usernames)
+	2. [Contacts](#2-contacts)
+	3. [Multi-signatures](#3-multi-signatures)
 5. [Decentralized Applications](#5-decentralized-applications)
-	1. Virtual Machine
-	2. Dapps
-	3. Dapps Development
-	4. Dapps Computation
-	5. Dapps Consensus
-	6. Dapps Master Nodes
-	7. Dapps Storage
-	8. Dapps Deposits / Withdrawals
-	9. Dapps Tokens
-6. [Appendix](#6-sppendix)
+	1. [Virtual Machine](#1-virtual-machine)
+	2. [Dapps](#2-dapps)
+	3. [Dapps Development](#3-dapps-development)
+	4. [Dapps Computation](#4-dapps-computation)
+	5. [Dapps Consensus](#5-dapps-consensus)
+	6. [Dapps Master Nodes](#6-dapps-master-nodes)
+	7. [Dapps Storage](#7-dapps-storage)
+	8. [Dapps Deposits / Withdrawals](#8-dapps-deposits-withdrawals)
+	9. [Dapps Tokens](#9-dapps-tokens)
+6. [Appendix](#6-appendix)
 7. [Sources](#7-sources)
 
 ## 1. Introduction
 
-**1. What is Lisk**  
+### 1. What is Lisk
 
 Lisk is a next generation platform that allows for the development and distribution of JavaScript based decentralized applications using an easy to use, fully featured ecosystem. Through Lisk, developers can build, publish, distribute, and monetize their applications within a custom built cryptocurrency powered system that utilizes custom blockchains, smart contracts, cloud storage, and computing nodes; all from within one industry solution.  
 
-**2. Technical Background**  
+### 2. Technical Background
 
 Lisk is written in Node.js[[1]](http://nodejs.org) on the backend, and HTML5 and CSS3 on the frontend. It works asynchronously and allows for fast processing of all functions such as network transactions. The database uses SQLite to allow the use and running of complex queries.  
 
-**3. Key Innovation Factors**  
+### 3. Key Innovation Factors
 
 Lisk is the first decentralized application solution written entirely in Node.js. This opens up the Lisk ecosystem to thousands of current developers with no additional skills necessary. Any web developer who is already familiar with JavaScript and Node.js can immediately jump in and begin building decentralized applications from day one.  
 
@@ -48,7 +48,7 @@ Our core goal with Lisk was to create an entire plug and play system that would 
 
 To top it all off, all of these cloud functions are run by the users and Lisk delegates who are paid through a built in invoice system (or by the network itself in the case of delegates) and paid in LISK (Lisk’s own cryptocurrency) or BTC. It truly is a one stop shop for application development that provides a cutting edge, affordable, and forward-thinking solution.
 
-**4. Lisk Components include:**  
+### 4. Lisk Components
 
 - Decentralized P2P hosting of dapps
 - Decentralized P2P storage for dapps
@@ -59,7 +59,7 @@ To top it all off, all of these cloud functions are run by the users and Lisk de
 
 ## 2. Clients
 
-**1. Lisk**  
+### 1. Lisk
 
 The full client is the best solution for super users, delegates and developers. It is available for Windows, Mac OS and Linux. Though it is only possible to be a delegate with the Linux client. Lite client users can connect to the full clients to access the network.  
 
@@ -67,7 +67,7 @@ They can also use them to make API calls, if it is allowed by the full client ow
 
 Dapp users can use the lite client for accessing their installed dapps as well. The dapps API and the peers API are available to developers. They make it possible to quickly and easily create JavaScript dapps using nw.js2 or Electron3.
 
-**2. Lisk Lite**  
+### 2. Lisk Lite
 
 The regular user will mostly use the lite client, a light-weight Lisk client, to access their Lisk account.  
 
@@ -85,7 +85,7 @@ The full client is the best solution for super users, delegates and developers. 
 
 They can also use them to make API calls, if it is allowed by the full client owner. All full client users download the blockchain from each other through a peer-to-peer connection.  
 
-**3. Lisk Mobile**
+### 3. Lisk Mobile
 
 The mobile client allows the user to access their Lisk account while on the go. It will be available for both iOS and Android and featured in the Apple and Google Play app stores.  
 
@@ -101,7 +101,7 @@ Delegate promotion to the top 101 or demotion to the standby list happens at the
 
 In DPoS, forks can occur, but the longest fork wins. Delegates must be online all of the time and have sufficient uptime. Uptime is used to catalogue the reliability of a node by logging each time that it misses a block that was assigned to it. Users vote for the top 101 delegates based on several factors, uptime being one key factor used to make a determination. If a delegate drops below a certain rating, users may remove votes from the delegate in question due to poor performance.  
 
-**1. Delegates**
+### 1. Delegates
 
 The function of delegates is covered above in the Consensus section.  
 
@@ -109,7 +109,7 @@ To be a delegate, a user needs to register a delegate account. This is accomplis
 
 New delegates start as standby delegates. Standby delegates begin with an approval rating of 0% and will need to accrue votes from the Lisk community in order to advance to be one of the top 101 delegates. Block generation is performed by the top 101 delegates only. If you are in standby status, you will not forge any blocks.  
 
-**2. Network fees**  
+### 2. Network fees
 
 All valid transactions in the network must be processed. Delegates process transactions and store them in new blocks. For this work, the delegates receive a fee. All transactions in the network must contain some type of fee as a spam countermeasure.  
 
@@ -127,7 +127,7 @@ The following is a list of fees for different types of transactions:
 
 Delegates receive the fees from all transactions of the last block cycle (101 blocks). Fees are split equally between all delegates who created a block in that cycle. Delegates who missed creating a block assigned to them during that cycle are not paid.  
 
-**3. Peer-to-Peer**  
+### 3. Peer-to-Peer
 
 We are using a standard P2P network[[5]](https://en.wikipedia.org/wiki/Peer-to-peer), which works on top of the http protocol, and uses json formatted data as a method of data inter-change. The P2P module captures the following information about each peer:  
 
@@ -138,7 +138,7 @@ We are using a standard P2P network[[5]](https://en.wikipedia.org/wiki/Peer-to-p
 
 ## 4. Core Features
 
-**1. Usernames**  
+### 1. Usernames
 
 Lisk allows users to register usernames. Which act as an alias to your account. Other users can send transactions to this username and the linked account will then receive it. This eliminates the need to remember long account addresses.  
 
@@ -150,7 +150,7 @@ The network fee for username registration is 100 LISK. Usernames may contain the
 
 Each username is unique. The length is currently limited to 16 characters. Currently, it is not possible to remove a username from your account.  
 
-**2. Contacts**  
+### 2. Contacts
 
 Lisk allows users to maintain a contact or friends list. This feature can be used to store frequently used accounts, but can also be used as a reputation system. If an account has many confirmed contacts, it may be considered more reputable than one without.  
 
@@ -158,7 +158,7 @@ Contacts work like followers on Twitter. A user is added to the contact list, wh
 
 The network fee for adding a new contact or accepting an incoming request is 1 LISK.  
 
-**3. Multi-signatures**  
+### 3. Multi-signatures
 
 Lisk allows users to create a multi-signature group. A multi-signature group consists of several Lisk users, called group members. Transactions from multi-signature groups can be configured to require some or all signatories for approval.  
 
@@ -178,13 +178,13 @@ The Lisk Virtual Machine is a safe Node.js VM. It can run untrusted JavaScript c
 
 Developers can choose from a large library of NPM modules and use all of the power of JavaScript asynchronous programming[[7]](http://npmjs.org). The intent is for the global JavaScript community to be able to build within Lisk on top of established and accessible code.  
 
-**2. Dapps**  
+### 2. Dapps
 
 A dapp is a decentralized application[[8]](https://github.com/DavidJohnstonCEO/DecentralizedApplications/blob/master/README.md) written in Node.js and JavaScript. It works with the Lisk VM using either the Lisk or soon the Bitcoin consensus algorithm. The Lisk VM is a scalable Node.js application that allows Node.js and JavaScript developers to write dapps. With current web technologies (HTML5/CSS3/JavaScript) the developer is able to create a powerful UI. Dapps can use custom Node.js packages from NPM (the Node.js package manager).  
 
 Regular users can launch the dapps on a Linux Lisk client or via the Lisk Lite client on Windows or Mac OS.  
 
-**3. Dapps Development**  
+### 3. Dapps Development
 
 Developers write dapps in JavaScript which allows the use of the full ecosystem of Node.js packages powered by NPM. The Lisk VM is integrated with the Lisk API. This API interfaces with the Lisk Blockchain and even with the Bitcoin blockchain. Each dapp runs in the Lisk VM, which removes many possible attack vectors and thus makes it much safer for the end user to start dapps on their local machine. The Crypt API is accessible by the dapp.  
 
@@ -201,7 +201,7 @@ This API includes:
 
 To open a dapp, the format:  `http://ip:port/dapps/<dapp_id/username>` is used.  
 
-**4. Dapps Computation**  
+### 4. Dapps Computation
 
 The Lisk Team is developing a system that allows for billing of CPU time. Where the Lisk VM uses its API to track how much CPU time is used to run a dapp. As a result, owners of nodes can run dapp master nodes in return for LISK or BTC payments.  
 
@@ -209,7 +209,7 @@ The purpose of Lisk is to create a unique ecosystem, of which computation is one
 
 This is referred to as Dapps Billing. You can compare it to the Heroku platform for deploying applications.  
 
-**5. Dapps Consensus**  
+### 5. Dapps Consensus
 
 Each Dapp has its own unique private side chain which operates in synchronization with the Lisk block time and current block height.  
 
@@ -223,17 +223,17 @@ The motivations behind this form of consensus are to prevent unnecessary enlarge
 
 It should be noted as an optional alternative in the soon future, Lisk dapps can instead be secured by the Bitcoin blockchain using this same method.  
 
-**6. Dapps Master Nodes**  
+### 6. Dapps Master Nodes
 
 Dapp master nodes are Lisk nodes with an installed dapp and with block generation enabled specifically for that dapp. Dapp owners need to approve individual Lisk accounts to be permitted to be a master node. The nodes process transactions and generate new blocks which are then secured by the Lisk Blockchain, making them the core of the dapp system.  
 
-**7. Dapps Storage**  
+### 7. Dapps Storage
 
 It is possible to host dapps on every kind of storage network, centralized and decentralized. However, the used storage network has to provide you with a download link to a ZIP package. This is necessary because you have to provide the download link at the dapp registration process so that once a consumer/user wants to install your dapp Lisk knows from where to download and unpack it.   
 
 At a later stage IPFS[[10]](https://ipfs.io) will be natively integrated into Lisk as a decentralized storage option.   
 
-**8. Dapps Deposits / Withdrawals**  
+### 8. Dapps Deposits / Withdrawals
 
 Developers can use either LISK or BTC in their dapps11. Users of a dapp may deposit or withdraw funds from any given dapp. When LISK or BTC are sent to a dapp address, the funds appear in the dapp account. The funds will then become available for use within the dapp. This works the same way for BTC deposits as it does with LISK. BTC is sent to a special dapp address and then appears in the dapp Bitcoin wallet.  
 
@@ -241,17 +241,19 @@ Dapp accounts are a special type of account created by the owner of a dapp. All 
 
 Withdrawals from dapps are processed by master nodes. When a withdrawal request is sent, the dapp master node processes it and moves the funds to the specified withdrawal address in the Lisk or Bitcoin blockchain.  
 
-**9. Dapps Tokens**  
+### 9. Dapps Tokens
 
 Developers may implement custom tokens in their dapps, and use these tokens as the main currencies within their dapps. These tokens may be used in the same way as LISK or BTC, but the tokens cannot be moved directly from one dapp sidechain to another dapp sidechain. They must only move via the Lisk main chain.  
 
 ## 6. Appendix
 
-**Written by**  
+### Written by
+
 * Max Kordek  
 * Olivier Beddows  
 
-**Releases**  
+### Releases
+
 * February 1st, 2016 (v1.0)  
 
 ## 7. Sources  
