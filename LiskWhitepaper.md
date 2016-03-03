@@ -250,7 +250,7 @@ Developers may implement custom tokens in their dapps, and use these tokens as t
 ### Written by
 
 * Max Kordek  
-* Olivier Beddows  
+* Oliver Beddows  
 
 ### Releases
 
