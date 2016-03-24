@@ -174,9 +174,11 @@ The owners of a multi-signature group may change the rules of the group at any t
 
 ### 1. Virtual Machine  
 
-The Lisk Virtual Machine is a safe Node.js VM. It can run untrusted JavaScript code. Which is a fork of Node.js that uses an API to connect to Lisk and connect Lisk to the VM. The Lisk VM is like the standard Node.js except that it disallows low level operations. For security, Lisk uses Seccomp[[6]](https://en.wikipedia.org/wiki/Seccomp). This is a sandbox mechanism implemented in the Linux kernel.  
+Lisk Dapps are executed using Lisk Node, a specialized version of NodeJS that provides a sandboxed runtime environment in which to run individual dapps. Inter-process communication is achieved using Named Pipes, with no imposed limit on message size.  
 
-Developers can choose from a large library of NPM modules and use all of the power of JavaScript asynchronous programming[[7]](http://npmjs.org). The intent is for the global JavaScript community to be able to build within Lisk on top of established and accessible code.  
+Upon launching a new Dapp, the Lisk client starts a new instance of Lisk Node as a child process. If a Dapp encounters a fatal error, then the child process is killed gracefully, leaving the parent Lisk client unaffected.  
+
+**Please note, currently there is no protection against unauthorized system calls made from the running dapp. Therefore, running untrusted code is not yet advisable, and could potentially lead to loss of funds. Work is underway to provide a fully sandboxed environment in which to run untrusted code.**  
 
 ### 2. Dapps
 
