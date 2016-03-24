@@ -188,7 +188,7 @@ Regular users can launch the dapps on a Linux Lisk client or via the Lisk Lite c
 
 ### 3. Dapps Development
 
-Developers write dapps in JavaScript which allows the use of the full ecosystem of Node.js packages powered by NPM. The Lisk VM is integrated with the Lisk API. This API interfaces with the Lisk Blockchain and even with the Bitcoin blockchain. Each dapp runs in the Lisk VM, which removes many possible attack vectors and thus makes it much safer for the end user to start dapps on their local machine. The Crypt API is accessible by the dapp.  
+Developers write dapps in JavaScript which allows the use of the full ecosystem of Node.js packages powered by NPM. The Lisk VM is integrated with the Lisk API. This API interfaces with the Lisk Blockchain and even with the Bitcoin blockchain. Each dapp runs in the Lisk VM, which removes many possible attack vectors and thus makes it much safer for the end user to start dapps on their local machine. The Lisk API is accessible by the dapp.  
 
 To make the dapp development as easy as possible the Lisk Team released lisk-cli, a command line interface which creates your own testnet and dapp environment by answering a few simple questions. Additionally we prepared a Dapp Toolkit, which gives developers a reference implementation of the most important dapp functionalities, and serves as a solid foundation upon which they can start building their decentralized applications.  
 
